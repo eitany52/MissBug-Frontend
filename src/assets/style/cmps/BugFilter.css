@@ -1,0 +1,10 @@
+
+.bug-filter form {
+    display: flex;
+    align-items: center;
+}
+
+.bug-filter form input{
+    margin:0;
+    padding: 0;
+}

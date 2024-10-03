@@ -1,0 +1,10 @@
+.user-details h3 {
+    color: var(--clr1);
+    font-size: 2em;
+}
+
+.user-details img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}

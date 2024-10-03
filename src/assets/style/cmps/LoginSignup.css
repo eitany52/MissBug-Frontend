@@ -1,0 +1,9 @@
+.login-signup {
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}

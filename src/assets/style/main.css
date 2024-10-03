@@ -1,0 +1,45 @@
+/* Setup */
+
+@import "setup/vars.css";
+@import "setup/typography.css";
+
+/* Base */
+
+@import "base/base.css";
+@import "base/helpers.css";
+@import "base/layout.css";
+@import "base/forms.css";
+
+/* Components */
+
+@import "cmps/AppHeader.css";
+@import "cmps/AppFooter.css";
+@import "cmps/Home.css";
+@import "cmps/UserMsg.css";
+@import "cmps/BugList.css";
+@import "cmps/BugPreview.css";
+@import "cmps/bugFilter.css";
+@import "cmps/UserList.css";
+@import "cmps/UserPreview.css";
+@import "cmps/LoginSignup.css";
+@import "cmps/MsgList.css";
+@import "cmps/MsgPreview.css";
+
+/* Pages */
+@import "pages/BugIndex.css";
+@import "pages/BugDetails.css";
+@import "pages/UserIndex.css";
+@import "pages/UserDetails.css";
+@import "pages/MsgIndex.css";
+@import "pages/MsgDetails.css";
+
+.main-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.main-app>main {
+    flex-grow: 1;
+}
